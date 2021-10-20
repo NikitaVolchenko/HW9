@@ -5,6 +5,10 @@ public class List<T> {
     private Node head;
     private int count;
 
+    public int size() {
+        return count;
+    }
+
     public void add(T value) {
         Node newNode = new Node(value);
         if (head == null) {
