@@ -5,7 +5,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class List1Test {
+public class ListHelperTest {
     @Test
     public void test() {
         List<Integer> list = new ArrayList<>();
